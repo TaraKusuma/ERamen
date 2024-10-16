@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    /* font-family: 'Catamaran', sans-serif;
+    font-family: 'EB Garamond', serif; */
+}
+
+:root{
+    --main-color: #1f1f1f;
+    --second-color: #f1f1f1;
+    --first-font: 'Catamaran', sans-serif;
+    --second-font:'EB Garamond', serif;
+}
+
+section{
+    padding: 50px 10%;
+}
+
+img{
+    width: 100%;
+}
+
+nav{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF6E0;
+    /* box-shadow: 0 4px 41px rgb(14 55 54 / 14%); */
+    padding: 3px 5%;
+    transition: 1s;
+}
+
+logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font: 1rem;
+    padding: 11px 20px;
+    color: var(--main-color);
+    font-weight: 400;
+    font-family: var(--second-font);
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.bg{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 70px;
+    height: 900px;
+    opacity: 80%;
+}
+
+.vision{
+    position: absolute;
+    width: 500px;
+    top: 150px;
+    filter: drop-shadow(0px 3px 3px);
+}
+
+.vis-title{
+    position: absolute;
+    font-family: var(--first-font);
+    width: 500px;
+    left: 700px;
+    top: 150px;
+    font-size: 25px;
+}
+
+.vis-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    width: 500px;
+    left: 700px;
+    top: 230px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.mission{
+    position: absolute;
+    width: 500px;
+    left: 700px;
+    top: 600px;
+    filter: drop-shadow(0px 3px 3px);
+}
+
+.mis-title{
+    position: absolute;
+    font-family: var(--first-font);
+    width: 500px;
+    left: 530px;
+    top: 600px;
+    font-size: 25px;
+}
+
+.mis-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    width: 500px;
+    left: 130px;
+    top: 650px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.bg2{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 969px;
+    opacity: 70%;
+}
+
+.title{
+    font-family: var(--second-font);
+    top: 1050px;
+    position: absolute;
+    font-size: 35px;
+    left: 550px;
+}
+
+.year1{
+    position: absolute;
+    top: 1150px;
+    left: 630px;
+    font-size: 25px;
+}
+/* top: 50, 100 */
+.desc1{
+    position: absolute;
+    top: 1200px;
+    left: 280px;
+    font-size: 20px;
+    width: 900px;
+}
+
+.year2{
+    position: absolute;
+    top: 1250px;
+    left: 630px;
+    font-size: 25px;
+}
+/* top: 50, 100 */
+.desc2{
+    position: absolute;
+    top: 1300px;
+    left: 480px;
+    font-size: 20px;
+    width: 900px;
+
+}
+
+.year3{
+    position: absolute;
+    top: 1350px;
+    left: 630px;
+    font-size: 25px;
+}
+/* top: 50, 100 */
+.desc3{
+    position: absolute;
+    top: 1400px;
+    left: 250px;
+    font-size: 20px;
+}
+
+.year4{
+    position: absolute;
+    top: 1450px;
+    left: 630px;
+    font-size: 25px;
+}
+/* top: 50, 100 */
+.desc4{
+    position: absolute;
+    top: 1500px;
+    left: 350px;
+    font-size: 20px;
+}
+
+.year5{
+    position: absolute;
+    top: 1550px;
+    left: 630px;
+    font-size: 25px;
+}
+
+/* top: 50, 100 */
+.desc5{
+    position: absolute;
+    top: 1600px;
+    left: 230px;
+    font-size: 20px;
+    width: 900px;
+    text-align: center;
+}
+
+.year6{
+    position: absolute;
+    top: 1650px;
+    left: 630px;
+    font-size: 25px;
+}
+/* top: 50, 100 */
+.desc6{
+    position: absolute;
+    top: 1700px;
+    left: 300px;
+    font-size: 20px;
+}
+
+.museum{
+    position: absolute;
+    top: 1900px;
+    height: 500px;
+    width: auto;
+    left: 200px;
+}
+
+.footer{
+    position: absolute;
+    background-color: #FFF6E0;
+    height: 200px;
+    top: 2486px;
+    width: 100%;
+}
+
+.foot-logo{
+    position: absolute;
+    width: 250px;
+    top: 5px;
+    left: 80px;
+}
+
+.ingfo{
+    position: absolute;
+    font-family: var(--second-font);
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
+    text-align: center;
+    left: 600px;
+    top: 40px;
+}
+
+.socmed{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    width: 40px;
+    left: 350px;
+    top: 70px;
+}

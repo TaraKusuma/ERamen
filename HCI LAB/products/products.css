@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    /* font-family: 'Catamaran', sans-serif;
+    font-family: 'EB Garamond', serif; */
+}
+
+:root{
+    --main-color: #1f1f1f;
+    --second-color: #f1f1f1;
+    --first-font: 'Catamaran', sans-serif;
+    --second-font:'EB Garamond', serif;
+}
+
+section{
+    padding: 50px 10%;
+}
+
+img{
+    width: 100%;
+}
+
+nav{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF6E0;
+    /* box-shadow: 0 4px 41px rgb(14 55 54 / 14%); */
+    padding: 3px 5%;
+    transition: 1s;
+}
+
+logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font: 1rem;
+    padding: 11px 20px;
+    color: var(--main-color);
+    font-weight: 400;
+    font-family: var(--second-font);
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.menu{
+    position: static;
+    height: 1940px;
+    background-color: #8E897C;
+
+}
+.bg{
+    position: absolute;
+    left: 415px;
+    width: 450px;
+}
+
+.intro1{
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 250px;
+    left: 0;
+    top: 350px;
+    opacity: 50%;
+}
+
+.ramen{
+    position: absolute;
+    width: 350px;
+    left: 600px;
+    top: 360px;
+    filter: drop-shadow(0px 1px 1px);
+}
+
+.ramen-txt{
+    position: absolute;
+    width: 300px;
+    left: 920px;
+    top: 380px;
+    font-family: var(--first-font);
+    font-size: 18px;
+}
+
+.broth{
+    position: absolute;
+    width: 350px;
+    left: 0px;
+    top: 350px;
+    /* filter: drop-shadow(0px 1px 1px); */
+}
+
+.broth-txt{
+    position: absolute;
+    width: 250px;
+    left: 360px;
+    top: 380px;
+    font-family: var(--first-font);
+    font-size: 15px;
+}
+
+.separation1{
+    background-color: #373A39;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 600px;
+    left: 0;
+    opacity: 70%;
+}
+
+.s-text1{
+    color: #f1f1f1;
+    position: absolute;
+    top: 5px;
+    left: 585px;
+    font-size: 25px;
+}
+
+.shio{
+    position: absolute;
+    top: 700px;
+    width: 285px;
+    left: 50px;
+}
+
+.shio-title{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 710px;
+    left: 280px;
+    width: 300px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.shio-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 760px;
+    left: 280px;
+    width: 300px;
+    text-align: justify;
+}
+
+.shoyu{
+    position: absolute;
+    top: 715px;
+    width: 330px;
+    left: 590px;
+}
+
+.shoyu-title{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 710px;
+    left: 865px;
+    width: 300px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.shoyu-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 760px;
+    left: 865px;
+    width: 300px;
+    text-align: justify;
+}
+
+.miso{
+    position: absolute;
+    top: 1030px;
+    width: 250px;
+    left: 45px;
+}
+
+.miso-title{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1035px;
+    left: 280px;
+    width: 300px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.miso-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1085px;
+    left: 280px;
+    width: 300px;
+    text-align: justify;
+}
+
+.tonkotsu{
+    position: absolute;
+    top: 1035px;
+    width: 290px;
+    left: 610px;
+}
+
+.tonkotsu-title{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1035px;
+    left: 865px;
+    width: 300px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.tonkotsu-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1085px;
+    left: 865px;
+    width: 300px;
+    text-align: justify;
+}
+
+.separation2{
+    background-color: #373A39;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 1300px;
+    left: 0;
+    opacity: 70%;
+}
+
+.s-text2{
+    color: #f1f1f1;
+    position: absolute;
+    top: 5px;
+    left: 565px;
+    font-size: 25px;
+}
+
+.ebi{
+    position: absolute;
+    top: 1380px;
+    width: 200px;
+    left: 75px;
+}
+
+.ebi-title{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1380px;
+    left: 280px;
+    width: 300px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.ebi-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1430px;
+    left: 280px;
+    width: 300px;
+    text-align: justify;
+}
+
+.veg{
+    position: absolute;
+    top: 1422px;
+    width: 200px;
+    left: 660px;
+}
+
+.veg-title{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1380px;
+    left: 865px;
+    width: 300px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.veg-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1430px;
+    left: 865px;
+    width: 300px;
+    text-align: justify;
+}
+
+.separation3{
+    background-color: #373A39;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 1630px;
+    left: 0;
+    opacity: 70%;
+}
+
+.s-text3{
+    color: #f1f1f1;
+    position: absolute;
+    top: 5px;
+    left: 583px;
+    font-size: 25px;
+}
+
+.ocha{
+    position: absolute;
+    top: 1720px;
+    width: 250px;
+    left: 50px;
+}
+
+.ocha-title{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1730px;
+    left: 300px;
+    width: 300px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.ocha-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1780px;
+    left: 300px;
+    width: 300px;
+    text-align: justify;
+}
+
+.matcha{
+    position: absolute;
+    top: 1732px;
+    width: 180px;
+    left: 680px;
+}
+
+.matcha-title{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1732px;
+    left: 865px;
+    width: 300px;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.matcha-txt{
+    position: absolute;
+    font-family: var(--first-font);
+    top: 1782px;
+    left: 865px;
+    width: 300px;
+    text-align: justify;
+}
+
+.footer{
+    /* position: absolute; */
+    background-color: #FFF6E0;
+    height: 200px;
+    top: 1940px;
+}
+
+.foot-logo{
+    position: absolute;
+    width: 250px;
+    top: 1940px;
+    left: 80px;
+}
+
+.ingfo{
+    position: absolute;
+    font-family: var(--second-font);
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
+    text-align: center;
+    left: 600px;
+    top: 1985px;
+}
+
+.socmed{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    width: 40px;
+    left: 350px;
+    top: 2015px;
+}

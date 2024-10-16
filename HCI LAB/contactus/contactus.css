@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;600;700&family=EB+Garamond:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 2rem;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    /* font-family: 'Catamaran', sans-serif;
+    font-family: 'EB Garamond', serif; */
+}
+
+:root{
+    --main-color: #1f1f1f;
+    --second-color: #f1f1f1;
+    --first-font: 'Catamaran', sans-serif;
+    --second-font:'EB Garamond', serif;
+}
+
+section{
+    padding: 50px 10%;
+}
+
+img{
+    width: 100%;
+}
+
+nav{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFF6E0;
+    /* box-shadow: 0 4px 41px rgb(14 55 54 / 14%); */
+    padding: 3px 5%;
+    transition: 1s;
+}
+
+logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 80px;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar a{
+    font: 1rem;
+    padding: 11px 20px;
+    color: var(--main-color);
+    font-weight: 400;
+    font-family: var(--second-font);
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.bg{
+    /* align-items:flex-start; */
+    position: relative;
+    background-color: #959595;
+    /* margin: 150px ; */
+    width: 100%;
+    height: 400px;
+}
+
+.formContainer{
+    width: 70%;
+    height: 70%;
+    position: relative;
+    display:flex;
+    align-items: center;
+    left: 300px;
+    gap: 5rem;
+}
+
+.right{
+    width: 70%;
+    height: 100%;
+    z-index: 2;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.footer{
+    position: absolute;
+    background-color: #FFF6E0;
+    height: 200px;
+    top: 470px;
+    width: 100%;
+}
+
+.foot-logo{
+    position: absolute;
+    width: 250px;
+    top: 5px;
+    left: 80px;
+}
+
+.ingfo{
+    position: absolute;
+    font-family: var(--second-font);
+    font-size: 20px;
+    line-height: 30px;
+    width: 600px;
+    text-align: center;
+    left: 600px;
+    top: 40px;
+}
+
+.socmed{
+    position: absolute;
+    display: flex;
+    gap: 1rem;
+    width: 40px;
+    left: 350px;
+    top: 70px;
+}
